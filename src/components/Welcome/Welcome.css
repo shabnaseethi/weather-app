@@ -1,0 +1,92 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.home-container{
+    height: 100vh;
+    width:100%;
+    background-image: url("../images/weatherapp.jpg");
+    background-size: cover;
+}
+.box-container{
+    width:100%;
+    height:90vh;
+
+}
+.search-box{
+    padding: 20px;
+    margin: auto;
+    width:80%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-box input{
+    width:100%;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 19px;
+    color: gray;
+    text-align: center;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    letter-spacing: 1px;
+    box-shadow: -4px -1px 34px -5px rgba(0,0,0,0.79);
+    -webkit-box-shadow: -4px -1px 34px -5px rgba(0,0,0,0.79);
+    -moz-box-shadow: -4px -1px 34px -5px rgba(0,0,0,0.79);
+}
+.search-icon{
+    cursor: pointer;
+    text-align: center;
+    color:rgb(219, 221, 243);
+    padding: 10px;
+    border-radius: 100%;
+    
+}
+.search-icon:hover{
+    background-color: rgba(186, 229, 236,0.5);
+    color: gray;
+}
+.weather-details{
+    margin-top: 50px;
+    text-align: center;
+    color:rgba(70, 71, 71, 0.9)
+}
+.weather-details h3{
+    margin: 10px;
+    padding: 10px;
+}
+
+.temp h3{
+    font-size: 40px;
+}
+.temp-details h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.city-name h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.city-card h3{
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+    font-style: italic;
+    margin: 0;
+    padding:10px;
+}
+.submit-btn{
+    background-color: transparent;
+    border: transparent;
+}
