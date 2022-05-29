@@ -1,4 +1,4 @@
-import './App.css';
+
 import Welcome from "./components/Welcome/Welcome.js";
 
 function App() {
