@@ -12,7 +12,7 @@ function Welcome() {
   const [city, setCity] = useState("");
   const [temp, setTemp] = useState("");
   const getWeatherData = async (e, city) => {
-    e.preventDefault();
+    preventDefault();
 
     try {
       const { data } = await axios.get(api.base + `q=${city}&appid=${api.key}`);
